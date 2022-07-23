@@ -1,0 +1,154 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu li.selected {
+    box-shadow: 0em 0em 2em rgb(255, 255, 255);
+    color: black;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+body {
+    color: var(--black);
+    font-family: 'Fira Sans';
+    background: white;
+    margin: 0;
+}
+body {
+    color: var(--black);
+    font-family: 'Fira Sans';
+    background: white;
+    margin: 0;
+}
+header {
+    margin: 2em;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+header ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+}
+
+main {
+    margin: 2em 0em 2em 2em;
+    padding: 0em 0em 0em 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+main h1 {
+    font-size: 4em;
+    margin-bottom: 0em;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+button,
+input {
+    color: white;
+    background: var(--red);
+    font-family: 'Fira Sans';
+    font-size: 1.2em;
+    padding: 0.5em 1.2em;
+    border-radius: 2em;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+select {
+    margin: 0.8em 0;
+    padding: 0.5em 1.2em;
+    border-radius: 2em;
+    color: rgb(40, 40, 40);
+    background: white;
+    font-family: 'Fira Sans';
+    font-size: 1.2em;
+    border: 1px solid rgb(116, 113, 113);
+    width: 100%;
+}
+
+section.menu ul li form input {
+    width: 100%;
+}
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.menu li {
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 20%;
+    border: 1.5px solid gray;
+    border-radius: 50rem 50rem 15rem 15rem;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+
+.menu p {
+    color: grey;
+}
+
+.cost {
+    color: var(--green);
+}
+:root {
+    --black: #00180a;
+    --red: #d20202;
+    --green: #029140;
+}
+
+.gradient,
+.shadow-gradient {
+    position: relative;
+    display: inline-block;
+}
+
+.gradient::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 160%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.0) 50%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 1.0));
+}
+
+footer p {
+    text-align: center;
+    color: #373737;
+    padding: 10px;
+}
+
+.shadow-gradient::after {
+    left: 33%;
+    top: 10%;
+    width: 11em;
+    height: 11em;
+}

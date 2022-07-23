@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Pizza Friday </title>
+        
+        <!-- lier la page html avec le css pour ajouter le design -->
+        <link rel="stylesheet" type="text/css" href="PizzaFriday.css">
+
+        <!-- ajouter une police d'ecriture -->
+        <link href="https://fonts.google.com/specimen/Fira+Sans" rel="stylesheet">
+
+   
+        
+    </head>
+
+    <body>
+
+        <!-- Balise pour le haut de page -->
+        <header>
+            <nav>
+            <div class="logo">
+            
+            <img src="logo.svg">
+            <h2>pizza Time</h2>
+
+            </div>
+
+
+            <ul>
+                <li class="selected">Home</li>
+                <li>Menu</li>
+                <li>Promo</li>
+                <li><img src="search.svg" alt="Search"></li>
+                <li><img src="cart.svg" alt="Cart"></li>
+                <li><button>Sign in</button></li>
+
+            </ul>
+                </nav>
+            </header>
+
+<!-- Section Entete de la page -->
+
+<main>
+    <div class="title">
+        <h1>Friday pizza!</h1>
+        <h2>Time to enjoy our delicious pizza.</h2>
+        <button class="order-button">Order now</button>
+    </div>
+
+    <div class="gradient">
+        <img src="margherita-pizza 2.jpg">
+    </div>
+
+    <!-- Section class Menu -->
+
+</main>
+<section class="menu">
+        <h2> Recommended menu</h2>
+
+   <ul>
+    <li>
+                    <!-- Pizza 1 -->
+                    <div class="shadow-gradient">
+                        <img src="pizza 1.png">
+                    </div>
+                    <h1>Cheese Lovers
+                    </h1>
+                    <p>Combination of Alfredo sauce and two cheeses - Romano, and Parmesan.</p>
+                    <h1 class="cost">$20.00</h1>
+                    <select name="type" id="type-select">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                        <option value="Small">Small</option>
+                    </select>
+                    <form action="cart">
+                        <input type="submit" value="Add to cart">
+                    </form>
+
+                </li>
+
+                    <!-- Pizza 2 -->
+
+                <li>
+                    <div class="shadow-gradient">
+                        <img src="pizza 2.png">
+                    </div>
+                    <h1>
+                        Pepperoni Pizza
+                    </h1>
+                    <p>Pizza with homemade spicy beef sausage.</p>
+                    <h1 class="cost">$25.00</h1>
+                    <select name="type" id="type-select">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                        <option value="Small">Small</option>
+                    </select>
+                    <form action="cart">
+                        <input type="submit" value="Add to cart">
+                    </form>
+                </li>
+
+                    <!-- Pizza 3 -->
+
+                <li class="selected">
+                    <div class="shadow-gradient">
+                        <img src="pizza 3.png">
+                    </div>
+                    <h1>
+                        Margherita Pizza
+                    </h1>
+                    <p>Made with San Marzano tomatoes, mozzarella cheese, and fresh basil.</p>
+                    <h1 class="cost">$35.00</h1>
+                    <select name="type" id="type-select">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                        <option value="Small">Small</option>
+                    </select>
+                    <form action="cart">
+                        <input type="submit" value="Add to cart">
+                    </form>
+                </li>
+            </ul>
+    
+        </section>
+
+        <!-- Pied de page -->
+
+        <footer>
+            <hr>
+            <p>&copy; 2022 - DANIEL KAMDEM SADEFO - TP Diginamic HTML,CSS  </p>
+        </footer>
+
+    </body>
+</html>
